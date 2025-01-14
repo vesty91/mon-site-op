@@ -1,0 +1,30 @@
+body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+      color: #fff;
+      transition: background-color 0.3s ease;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      transition: width 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #00ffcc;
+    }

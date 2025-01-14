@@ -1,0 +1,16 @@
+.twitter-feed {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .twitter-feed h2 {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  .twitter-timeline {
+    display: inline-block;
+    margin: 0 auto;
+  }
